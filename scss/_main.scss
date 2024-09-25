@@ -1,5 +1,21 @@
 .hero__image {
   padding: 129px 0 0 0;
+  .image__container {
+    position: relative;
+    span {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+      left: 50%;
+      position: absolute;
+      text-wrap: nowrap;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      @media only screen and (min-width: 400px) {
+        font-size: 2.5rem;
+      }
+    }
+  }
 }
 
 .main {

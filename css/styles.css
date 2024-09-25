@@ -115,6 +115,25 @@ select {
 .hero__image {
   padding: 129px 0 0 0;
 }
+.hero__image .image__container {
+  position: relative;
+}
+.hero__image .image__container span {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  left: 50%;
+  position: absolute;
+  text-wrap: nowrap;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+}
+@media only screen and (min-width: 400px) {
+  .hero__image .image__container span {
+    font-size: 2.5rem;
+  }
+}
 
 .main {
   margin: 0 auto;
