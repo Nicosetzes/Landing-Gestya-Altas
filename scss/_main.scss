@@ -1,0 +1,117 @@
+.hero__image {
+  padding: 129px 0 0 0;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.main__forms {
+  padding: 3.75rem 0;
+  h2 {
+    color: $darkPurple;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 3.75rem 0;
+    text-align: center;
+  }
+  .forms__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+    .forms__block {
+      box-shadow: 0px 4px 10px 0px rgba(164, 162, 162, 0.25);
+      // margin: 0 2rem;
+      max-width: 450px;
+      padding: 1.2rem;
+      padding-bottom: 0;
+      width: 100%;
+      @media only screen and (min-width: 400px) {
+        padding: 2.5rem;
+      }
+      // &:first-of-type {
+      //   margin-top: 0;
+      // }
+      .block__header {
+        h3 {
+          color: $darkPurple;
+          font-size: 1.5rem;
+          font-weight: 700;
+          line-height: normal;
+          margin: 1rem 0 2.5rem 0;
+        }
+      }
+      .block__content {
+        border-top: $lightBlue 2px solid;
+        padding: 2.5rem 0;
+        & > div {
+          align-items: center;
+          display: flex;
+          margin: 0 0 1.5rem 0;
+          img {
+            margin: 0 1.25rem 0 0;
+            max-width: 45px;
+          }
+          h4,
+          p {
+            color: $darkGrey;
+          }
+          h4 {
+            font-weight: 700;
+          }
+          p {
+            font-weight: 500;
+          }
+        }
+        & > a {
+          background-color: $darkPurple;
+          border: 0;
+          border-radius: 0.25rem;
+          color: #fff;
+          cursor: pointer;
+          font-family: "Inter", sans-serif;
+          //   min-width: fit-content;
+          padding: 0.75em 1.25em;
+          text-decoration: none;
+          @media only screen and (min-width: 576px) {
+            padding: 0.75em 2.75em;
+          }
+          &:hover {
+            background-color: $darkBlue;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main__images {
+  & > img {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .images__colven,
+  .images__all {
+    padding: 3.75rem 0;
+  }
+  .images__colven {
+    border-bottom: $lightBlue 2px solid;
+    img {
+      margin: 0 auto;
+      max-width: 225px;
+    }
+  }
+  .images__all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    img {
+      max-width: 150px;
+    }
+  }
+}
