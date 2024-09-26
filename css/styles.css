@@ -177,11 +177,18 @@ select {
   }
 }
 .main__forms .forms__container .forms__block .block__header h3 {
-  color: #312780;
+  background-color: #ea7d00;
+  border: 0;
+  border-radius: 0.75rem;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: normal;
   margin: 1rem 0 2.5rem 0;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 0.5em 1.25em;
 }
 .main__forms .forms__container .forms__block .block__content {
   border-top: #0981c4 2px solid;
@@ -231,7 +238,7 @@ select {
 
 .main__images > img {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 .main__images .images__colven,
 .main__images .images__all {
@@ -242,7 +249,7 @@ select {
 }
 .main__images .images__colven img {
   margin: 0 auto;
-  max-width: 225px;
+  max-width: 175px;
 }
 .main__images .images__all {
   display: -webkit-box;
@@ -256,5 +263,5 @@ select {
           justify-content: center;
 }
 .main__images .images__all img {
-  max-width: 150px;
+  max-width: 125px;
 }/*# sourceMappingURL=styles.css.map */

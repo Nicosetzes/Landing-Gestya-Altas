@@ -41,7 +41,6 @@
     margin: 0 0 2rem 0;
     .forms__block {
       box-shadow: 0px 4px 10px 0px rgba(164, 162, 162, 0.25);
-      // margin: 0 2rem;
       max-width: 450px;
       padding: 1.2rem;
       padding-bottom: 0;
@@ -49,16 +48,18 @@
       @media only screen and (min-width: 400px) {
         padding: 2.5rem;
       }
-      // &:first-of-type {
-      //   margin-top: 0;
-      // }
       .block__header {
         h3 {
-          color: $darkPurple;
+          background-color: $darkOrange;
+          border: 0;
+          border-radius: 0.75rem;
+          color: #fff;
           font-size: 1.5rem;
           font-weight: 700;
           line-height: normal;
           margin: 1rem 0 2.5rem 0;
+          max-width: fit-content;
+          padding: 0.5em 1.25em;
         }
       }
       .block__content {
@@ -108,7 +109,7 @@
 .main__images {
   & > img {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
   }
   .images__colven,
   .images__all {
@@ -118,7 +119,7 @@
     border-bottom: $lightBlue 2px solid;
     img {
       margin: 0 auto;
-      max-width: 225px;
+      max-width: 175px;
     }
   }
   .images__all {
@@ -127,7 +128,7 @@
     gap: 1rem;
     justify-content: center;
     img {
-      max-width: 150px;
+      max-width: 125px;
     }
   }
 }
